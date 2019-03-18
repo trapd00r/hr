@@ -15,8 +15,6 @@ differentiate where a given output is coming from.
 
 ![img](/extra/hr.png)
 
-    grep config; hr -c _ -fg 160; dmesg|grep sdc1; hr -c ═ -fg 220 --bold ; =df --total -h; hr -bg 166 -c ' '
-
 
 # OPTIONS
 
