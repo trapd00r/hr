@@ -3,7 +3,7 @@
 package App::term::hr;
 use vars qw($VERSION);
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 use strict;
 use warnings;
@@ -79,12 +79,12 @@ sub hr {
   if($attributes !~ m/^$/) {
     $hr = color($hr, $attributes);
     print $hr;
-    exit;
   }
 
   else {
     print $char x columns();
   }
+  print "\n";
 }
 
 sub columns {
