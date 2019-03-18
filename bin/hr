@@ -3,7 +3,7 @@
 package App::term::hr;
 use vars qw($VERSION);
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 use strict;
 use warnings;
@@ -127,7 +127,7 @@ differentiate where a given output is coming from.
 =head1 OPTIONS
 
   -c,  --char       Character to use
-  -s,  --size       Number of columns.
+  -s,  --size       Number of columns
   -fg, --fg         Foreground color to use. See Term::ExtendedColor
   -bg, --bg         Background color to use. See Term::ExtendedColor
   -b,  --bold       Use bold

@@ -19,7 +19,7 @@ differentiate where a given output is coming from.
 # OPTIONS
 
     -c,  --char       Character to use
-    -s,  --size       Number of columns.
+    -s,  --size       Number of columns
     -fg, --fg         Foreground color to use. See Term::ExtendedColor
     -bg, --bg         Background color to use. See Term::ExtendedColor
     -b,  --bold       Use bold
