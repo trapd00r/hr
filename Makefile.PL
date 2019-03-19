@@ -34,6 +34,14 @@ WriteMakefile1(
     q{Term::ExtendedColor} => q{0.500},
   },
 
+  META_ADD                     => {
+    provides => {
+      'App::term::hr' => {
+        file => 'bin/hr',
+      },
+    },
+  },
+
   MAN1PODS         => { },
   dist             => { COMPRESS => q{gzip -9f},    SUFFIX => q{gz}, },
   clean            => { FILES    => q{File-LsColor-*},                  },
