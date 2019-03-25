@@ -61,6 +61,10 @@ differentiate where a given output is coming from.
     hr -c ! -fg 52 -bg 196 -biur -s 70 -pre 5 -post 5
 ![example05.png](/extra/example05.png)
 
+    # use several characters to form a bar using arithmetics
+    hr -c "  japh  " -fg 1 -bg 0 -b -s $(($COLUMNS / 8))
+![example06.png](/extra/example06.png)
+
 # AUTHOR
 
     Magnus Woldrich
